@@ -1,0 +1,30 @@
+{
+  "name": "llm-wiki",
+  "version": "0.1.0",
+  "description": "LLM-maintained personal knowledge base. Agents compile raw sources into a structured, interlinked Obsidian wiki — you never write the wiki yourself.",
+  "type": "module",
+  "keywords": [
+    "openclaw",
+    "openclaw-skill",
+    "clawhub",
+    "claude-code",
+    "claude-code-skill",
+    "cursor",
+    "codex",
+    "skill",
+    "knowledge-base",
+    "wiki",
+    "obsidian",
+    "second-brain",
+    "personal-wiki",
+    "llm-wiki",
+    "karpathy",
+    "ai-agent-skill"
+  ],
+  "author": "Openclaw Community",
+  "license": "MIT",
+  "homepage": "https://github.com/openclaw/llm-wiki",
+  "bin": {
+    "llm-wiki-setup": "./setup.sh"
+  }
+}
