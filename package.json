@@ -1,5 +1,5 @@
 {
-  "name": "llm-wiki",
+  "name": "openwiki",
   "version": "0.1.0",
   "description": "LLM-maintained personal knowledge base. Agents compile raw sources into a structured, interlinked Obsidian wiki — you never write the wiki yourself.",
   "type": "module",
@@ -17,14 +17,14 @@
     "obsidian",
     "second-brain",
     "personal-wiki",
-    "llm-wiki",
+    "openwiki",
     "karpathy",
     "ai-agent-skill"
   ],
   "author": "Openclaw Community",
   "license": "MIT",
-  "homepage": "https://github.com/openclaw/llm-wiki",
+  "homepage": "https://github.com/Sid-Qin/openwiki",
   "bin": {
-    "llm-wiki-setup": "./setup.sh"
+    "openwiki-setup": "./setup.sh"
   }
 }

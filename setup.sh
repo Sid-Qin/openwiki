@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# LLM Wiki — One-command setup
-# Usage: llm-wiki-setup [target-directory]
+# OpenWiki — One-command setup
+# Usage: openwiki-setup [target-directory]
 #   target-directory: where to create the wiki (default: ./wiki)
 
 WIKI_ROOT="${1:-./wiki}"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-echo "🦞 LLM Wiki Setup"
+echo "🦞 OpenWiki Setup"
 echo "=================="
 echo ""
 
@@ -169,7 +169,7 @@ echo "  ✓ .gitignore updated"
 # --- Done ---
 echo ""
 echo "=================="
-echo "✓ LLM Wiki ready!"
+echo "✓ OpenWiki ready!"
 echo ""
 echo "Next steps:"
 echo "  1. Open the parent directory in Obsidian as a vault"

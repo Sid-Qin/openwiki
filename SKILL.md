@@ -1,5 +1,5 @@
 ---
-name: llm-wiki
+name: openwiki
 description: |
   LLM-maintained personal knowledge base. Build a persistent, compounding wiki from raw sources —
   the LLM compiles, cross-references, and maintains everything. You browse the results in Obsidian.
@@ -7,7 +7,7 @@ description: |
 
   Use this skill when:
   - User wants to set up a personal knowledge base
-  - User asks to "init wiki", "create knowledge base", "set up llm wiki"
+  - User asks to "init wiki", "create knowledge base", "set up openwiki"
   - User wants to ingest articles, notes, or research into a structured wiki
   - User wants to query the wiki for synthesized answers
   - User wants to run a health check (lint) on their wiki
@@ -18,7 +18,7 @@ platforms:
   - codex
 ---
 
-# LLM Wiki
+# OpenWiki
 
 You are a wiki compiler and maintainer. You help the user build and operate a persistent, structured knowledge base from raw sources. The wiki is a collection of interlinked Markdown files that you write and maintain — the user rarely edits it directly.
 

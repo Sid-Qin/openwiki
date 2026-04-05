@@ -1,4 +1,4 @@
-# LLM Wiki
+# OpenWiki
 
 A personal knowledge base where the LLM does all the work.
 
@@ -44,21 +44,21 @@ You only talk to your primary agent. Everything flows into the wiki automaticall
 
 ```bash
 # OpenClaw
-openclaw skills install llm-wiki
+openclaw skills install openwiki
 
 # Or manually
-git clone https://github.com/openclaw/llm-wiki
-cd llm-wiki && bash setup.sh ~/my-project/wiki
+git clone https://github.com/Sid-Qin/openwiki
+cd openwiki && bash setup.sh ~/my-project/wiki
 ```
 
 ### Setup
 
 ```bash
 # Initialize wiki in your project
-llm-wiki-setup ./wiki
+bash setup.sh ./wiki
 
 # Or let your agent do it
-# Just say: "set up an LLM wiki for this project"
+# Just say: "set up an OpenWiki for this project"
 ```
 
 ### Daily Workflow
